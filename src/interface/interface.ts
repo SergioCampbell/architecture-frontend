@@ -16,6 +16,6 @@ export type Todo = {
 
 export type TodoProps = {
     todo: Todo,
-    handleDeleteTodo: (id: string) => void
-    handleCheckTodo: (id: string) => void
+    handleDeleteTodo: (id: string) => void;
+    handleCheckTodo: (id: string) => void;
 }
