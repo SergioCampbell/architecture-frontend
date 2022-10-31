@@ -2,12 +2,7 @@ import { Row } from "./Row";
 import { data } from "../todos";
 import { ChangeEvent, FormEvent, useState } from "react";
 import { AddTodo } from "./AddTodo";
-
-type Todo = {
-  id: string;
-  task: string;
-  isCompleted: boolean;
-};
+import { Todo } from "../interface/interface"
 
 export const Todos = () => {
   const [todos, setTodos] = useState<Todo[]>(data);
